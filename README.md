@@ -2,7 +2,6 @@
 # 🎁 Amigo Secreto
 
 Aplicación web sencilla para crear una lista de amigos y **sortear** un nombre al azar. 
-Click --> file:///C:/Users/marti/OneDrive/Documentos/git-y-github/challenge-amigo-secreto/challenge-amigo-secreto/index.html
 
 
 ---
