@@ -11,3 +11,20 @@ function asignarTextoElem (elemento, texto){
     return;
 }
 
+//Listado de nombre desde el boton añadir
+
+function agregarAmigo (){
+   let nomAmigo= document.getElementById("amigo").value;
+   
+   if (nomAmigo === ""){
+    alert ("El nombre ingresado no corresponde.");
+
+   } else{
+    nombres.push(nomAmigo);
+    console.log (nombres);
+   }
+   
+
+   
+}
+
