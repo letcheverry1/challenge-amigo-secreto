@@ -87,3 +87,10 @@ function reiniciarJuego(){
     nombres.length = 0;
 }
 
+// Permitir que al presionar Enter se agregue el nombre
+document.getElementById("amigo").addEventListener("keydown", function(e) {
+  if (e.key === "Enter") {
+    e.preventDefault(); // evita que se envíe el formulario o refresque la página
+    agregarAmigo();
+  }
+});
