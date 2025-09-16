@@ -14,9 +14,7 @@ Aplicación web sencilla para crear una lista de amigos y **sortear** un nombre 
 - [Validaciones implementadas](#-validaciones-implementadas)
 - [Guía de pruebas manuales](#-guía-de-pruebas-manuales)
 - [Accesibilidad](#-accesibilidad)
-- [Notas de mantenimiento](#-notas-de-mantenimiento)
-- [Mejoras sugeridas](#-mejoras-sugeridas)
-- [Licencia](#-licencia)
+
 
 ---
 
@@ -113,8 +111,4 @@ No requiere dependencias ni servidor. Opciones:
 
 ---
 
-## 🧰 Notas de mantenimiento
 
-- En `sortearAmigo()`, cuando no hay nombres usas:
-  ```js
-  resultado.textContent = "";
