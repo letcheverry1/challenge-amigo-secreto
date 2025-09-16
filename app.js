@@ -23,8 +23,20 @@ function agregarAmigo (){
     nombres.push(nomAmigo);
     console.log (nombres);
    }
-   
 
+   const lista = document.getElementById ("lista");
+   const elementoNuevo = document.getElementById ("li");
+   elementoNuevo.textContent = nomAmigo;
+   lista.appendChild(elementoNuevo);
+   borrarCampo ();
    
 }
+
+//Funcion para borrar el campo luego de poner el nombre
+
+function borrarCampo (){
+    document.querySelector ("#amigo").value = "";
+}
+
+
 
