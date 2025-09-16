@@ -4,3 +4,10 @@
 // Array donde almacenaremos los nombres
 let amigos = [];
 
+// Funcion que permite sustituir texte de html
+function asignarTextoElem (elemento, texto){
+    let elementoHTML = document.querySelector(elemento);
+    elementoHTML.innerHTML = texto;
+    return;
+}
+
