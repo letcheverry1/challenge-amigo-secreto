@@ -80,8 +80,6 @@ function reiniciarJuego(){
     document.getElementById("listaAmigos").innerHTML="";
     document.getElementById("resultado").innerHTML = "";
 
-    asignarTextoElem("h2","");
-
     borrarCampo();
 
     console.log( "Juego reiniciado");
